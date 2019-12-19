@@ -1,0 +1,43 @@
+body {
+    display: block;
+    background-color: lavender;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+header {
+    display: flex;
+    flex: wrap;
+    background-color: skyblue;
+    justify-content: space-between;
+    width: 70%;
+    height: 150px;
+    margin-bottom: 30px;
+    padding: 10px;
+    align-content: center;
+}
+
+img {
+    height: 150px;
+    justify-self: left;
+}
+
+h1 {
+    justify-self: right;
+    font-family: serif;
+    align-self: center;
+}
+
+main {
+    /* display: flex; */
+    flex: wrap;
+    flex-direction: column;
+    width: 60%;
+    justify-content: left;
+}
+
+#text {
+    width: 400px;
+}
